@@ -7,6 +7,7 @@ class LambdaReturn {
         list.forEach {
             if (it.name == "Spock") {
                 println("Found Spock")
+                //直接返回findSpock
                 return
             }
         }

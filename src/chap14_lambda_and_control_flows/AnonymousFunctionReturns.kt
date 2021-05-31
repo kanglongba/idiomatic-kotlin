@@ -7,6 +7,7 @@ class AnonymousFunctionReturns {
         list.forEach(fun(student) {
             if (student.name == "Spock") {
                 println("Found Spock")
+                //返回匿名函数
                 return
             }
         })

@@ -13,6 +13,8 @@ class InlineReturn {
         findSpock(studentList) {
             if (it.name == "Spock") {
                 println("Found Spock")
+                //直接返回调用方findStudentTest。
+                //如果findSpock不是内联函数，return会报错
                 return
             }
             println("Not Spock")

@@ -1,5 +1,8 @@
 package chap07_sequence
 
+import com.sun.org.apache.xalan.internal.xsltc.dom.Filter
+import com.sun.xml.internal.xsom.impl.scd.Iterators
+
 // Copy of some stdlib functions. Use the actual function in stdlib for the latest code
 class SequenceSample {
     public inline fun <T> Iterable<T>.filter(predicate: (T) -> Boolean): List<T> {
@@ -57,4 +60,46 @@ class SequenceSample {
             }
         }
     }
+
+    fun handle(predicate: (Int) -> Boolean) {
+        predicate(1)
+    }
+}
+
+fun main(vararg args: String) {
+    val sample = SequenceSample()
+    //函数类型的变量
+    val func1 : (Int) -> Boolean = { num : Int ->
+        num > 100
+    }
+    //传入函数类型的变量
+    sample.handle(func1)
+    //传入函数引用
+    sample.handle(::func2)
+    //传入一个函数，并且逐渐lambda化
+    sample.handle({ num: Int ->
+        num > 200
+    })
+    sample.handle({ num ->
+        num > 200
+    })
+    sample.handle({
+        it > 200
+    })
+    sample.handle() {
+        it > 200
+    }
+    sample.handle {
+        it > 200
+    }
+    //匿名类对象，错误
+//    sample.handle(object : Filter {
+//        override fun test(node: Int): Boolean {
+//            return node > 10
+//        }
+//    })
+}
+
+fun func2(num : Int) : Boolean {
+    return num > 50
 }

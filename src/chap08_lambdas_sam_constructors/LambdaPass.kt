@@ -2,6 +2,7 @@ package chap08_lambdas_sam_constructors
 
 fun main(args: Array<String>) {
     fun addOffset(base: Int, lambda: (Int) -> Int): Int {
+        lambda(base)
         return lambda.invoke(base)
     }
 

@@ -12,4 +12,13 @@ class ManualLazy {
             }
             return _hero!!
         }
+
+    var hero1 : Hero = Hero("lol", "dota")
+        get() {
+            return Hero(field.attackType, field.attribute)
+        }
+        set(value) {
+            field.attribute + value.attribute
+            field = value
+        }
 }

@@ -16,6 +16,7 @@ class ViewCreator {
 
         fun child(tag: String, action: XMLChildContainer.() -> Unit): XMLContainer {
             data.append("<$tag")
+            //函数内部创建了XMLChildContainer对象，从而可以调用它的扩展函数
             val tagData = XMLChildContainer()
             tagData.action()
             data.append(tagData.attrData())
