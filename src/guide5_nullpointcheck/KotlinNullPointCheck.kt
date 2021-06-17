@@ -11,4 +11,5 @@ package guide5_nullpointcheck
  * version：1.0
  * description:
  * commit1
+ * commit2
  */
