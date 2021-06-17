@@ -11,6 +11,7 @@ public class Variance {
         arrayVariance(numbers);
 
         Integer[] integers = new Integer[12];
+        //This will produce a run-time exception because you are trying to insert a Long inside an Integer array
         arrayVariance(integers);
     }
 

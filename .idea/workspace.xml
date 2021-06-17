@@ -23,21 +23,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="499b111b-e868-4f18-87b5-e007ec0e15b0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap12_higher_order_function_and_function_type/HigherOrderFunction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guide1_FunAndVar/FunAndVar.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guide2_control/Control.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guide3_classAndObject/ClassAndObject.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guide3_classAndObject/ConstructFuction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinAnonymousInnerClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinCompanionObject.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinDataClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinInterface.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinModify.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinSealedClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinSingleton.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guide3_classAndObject/OpenKotlinClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guide4_collection/KotlinCollection.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guide5_nullpointcheck/KotlinNullPointCheck.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap04_class_delegation/DelegationSample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chap04_class_delegation/DelegationSample.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap07_sequence/SequenceSample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chap07_sequence/SequenceSample.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap08_lambdas_sam_constructors/Invoke.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chap08_lambdas_sam_constructors/Invoke.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap08_lambdas_sam_constructors/LambdaPass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chap08_lambdas_sam_constructors/LambdaPass.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap08_lambdas_sam_constructors/SAMConversion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chap08_lambdas_sam_constructors/SAMConversion.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap09_lambda_receiver_dsl/ViewCreator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chap09_lambda_receiver_dsl/ViewCreator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap10_elvis_operator/ExpandedElvis.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chap10_elvis_operator/ExpandedElvis.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap11_property_delegation/LazyTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chap11_property_delegation/LazyTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap11_property_delegation/ManualLazy.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chap11_property_delegation/ManualLazy.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap16_noinline_crossinline/Safidfngd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chap16_noinline_crossinline/Safidfngd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chap15_reified_parameters/ReifiedParameter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chap15_reified_parameters/ReifiedParameter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chap17_variance/DeclarationSiteContravariance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chap17_variance/DeclarationSiteContravariance.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chap17_variance/GenericInvariance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chap17_variance/GenericInvariance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chap17_variance/Variance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chap17_variance/Variance.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +53,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -57,6 +62,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1si3F00xxtfrRTTgJlCuJNBHqJA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -70,7 +78,7 @@
       <recent name="E:\AndroidProjects\idiomatic-kotlin\src\chap17_variance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LambdaReturnKt">
+  <component name="RunManager" selected="Application.KotlinCollectionKt">
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -107,40 +115,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnonymousFunctionReturnsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="ClassAndObjectKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="IdiomaticKotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chap14_lambda_and_control_flows.AnonymousFunctionReturnsKt" />
+      <option name="MAIN_CLASS_NAME" value="guide3_classAndObject.ClassAndObjectKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DelegationSampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="ConstructFuctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="IdiomaticKotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chap04_class_delegation.DelegationSampleKt" />
+      <option name="MAIN_CLASS_NAME" value="chap08_lambdas_sam_constructors.ConstructFuctionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InlineReturnKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="KotlinCollectionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="IdiomaticKotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chap14_lambda_and_control_flows.InlineReturnKt" />
+      <option name="MAIN_CLASS_NAME" value="guide4_collection.KotlinCollectionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,18 +178,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Variance" />
-      <item itemvalue="Application.DelegationSampleKt" />
       <item itemvalue="Application.LambdaReturnKt" />
-      <item itemvalue="Application.AnonymousFunctionReturnsKt" />
-      <item itemvalue="Application.InlineReturnKt" />
+      <item itemvalue="Application.ConstructFuctionKt" />
+      <item itemvalue="Application.ClassAndObjectKt" />
+      <item itemvalue="Application.KotlinCollectionKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LambdaReturnKt" />
-        <item itemvalue="Application.InlineReturnKt" />
-        <item itemvalue="Application.AnonymousFunctionReturnsKt" />
-        <item itemvalue="Application.DelegationSampleKt" />
+        <item itemvalue="Application.KotlinCollectionKt" />
+        <item itemvalue="Application.ClassAndObjectKt" />
+        <item itemvalue="Application.ConstructFuctionKt" />
         <item itemvalue="Application.Variance" />
+        <item itemvalue="Application.LambdaReturnKt" />
       </list>
     </recent_temporary>
   </component>
@@ -212,35 +220,47 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1380" y="201" key="#com.intellij.ide.util.MemberChooser" timestamp="1621998725289">
-      <screen x="-2560" y="-150" width="2560" height="1415" />
+    <state x="774" y="279" key="#com.intellij.ide.util.MemberChooser" timestamp="1623659014152">
+      <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="-1380" y="201" key="#com.intellij.ide.util.MemberChooser/0.25.1680.1025/-2560.-150.2560.1415@-2560.-150.2560.1415" timestamp="1621998725289" />
-    <state x="774" y="279" key="#com.intellij.ide.util.MemberChooser/0.25.1680.1025@0.25.1680.1025" timestamp="1621961016891" />
-    <state width="2149" height="356" key="GridCell.Tab.0.bottom" timestamp="1621601927208">
+    <state x="774" y="279" key="#com.intellij.ide.util.MemberChooser/0.25.1680.1025@0.25.1680.1025" timestamp="1623659014152" />
+    <state width="1638" height="378" key="GridCell.Tab.0.bottom" timestamp="1623738360242">
       <screen x="-2560" y="-150" width="2560" height="1415" />
     </state>
-    <state width="2149" height="356" key="GridCell.Tab.0.bottom/0.25.1680.1025/-2560.-150.2560.1415@-2560.-150.2560.1415" timestamp="1621601927208" />
-    <state width="2149" height="356" key="GridCell.Tab.0.center" timestamp="1621601927207">
+    <state width="1638" height="378" key="GridCell.Tab.0.bottom/0.25.1680.1025/-2560.-150.2560.1415@-2560.-150.2560.1415" timestamp="1623738360242" />
+    <state width="1638" height="378" key="GridCell.Tab.0.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1623658729061" />
+    <state width="1638" height="378" key="GridCell.Tab.0.center" timestamp="1623738360241">
       <screen x="-2560" y="-150" width="2560" height="1415" />
     </state>
-    <state width="2149" height="356" key="GridCell.Tab.0.center/0.25.1680.1025/-2560.-150.2560.1415@-2560.-150.2560.1415" timestamp="1621601927207" />
-    <state width="2149" height="356" key="GridCell.Tab.0.left" timestamp="1621601927206">
+    <state width="1638" height="378" key="GridCell.Tab.0.center/0.25.1680.1025/-2560.-150.2560.1415@-2560.-150.2560.1415" timestamp="1623738360241" />
+    <state width="1638" height="378" key="GridCell.Tab.0.center/0.25.1680.1025@0.25.1680.1025" timestamp="1623658729060" />
+    <state width="1638" height="378" key="GridCell.Tab.0.left" timestamp="1623738360240">
       <screen x="-2560" y="-150" width="2560" height="1415" />
     </state>
-    <state width="2149" height="356" key="GridCell.Tab.0.left/0.25.1680.1025/-2560.-150.2560.1415@-2560.-150.2560.1415" timestamp="1621601927206" />
-    <state width="2149" height="356" key="GridCell.Tab.0.right" timestamp="1621601927207">
+    <state width="1638" height="378" key="GridCell.Tab.0.left/0.25.1680.1025/-2560.-150.2560.1415@-2560.-150.2560.1415" timestamp="1623738360240" />
+    <state width="1638" height="378" key="GridCell.Tab.0.left/0.25.1680.1025@0.25.1680.1025" timestamp="1623658729059" />
+    <state width="1638" height="378" key="GridCell.Tab.0.right" timestamp="1623738360241">
       <screen x="-2560" y="-150" width="2560" height="1415" />
     </state>
-    <state width="2149" height="356" key="GridCell.Tab.0.right/0.25.1680.1025/-2560.-150.2560.1415@-2560.-150.2560.1415" timestamp="1621601927207" />
+    <state width="1638" height="378" key="GridCell.Tab.0.right/0.25.1680.1025/-2560.-150.2560.1415@-2560.-150.2560.1415" timestamp="1623738360241" />
+    <state width="1638" height="378" key="GridCell.Tab.0.right/0.25.1680.1025@0.25.1680.1025" timestamp="1623658729060" />
     <state x="-1398" y="188" key="RollbackChangesDialog" timestamp="1621512300231">
       <screen x="-2560" y="-150" width="2560" height="1415" />
     </state>
     <state x="-1398" y="188" key="RollbackChangesDialog/0.25.1680.1025/-2560.-150.2560.1415@-2560.-150.2560.1415" timestamp="1621512300231" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1621960931238">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1623644346542">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.25.1680.1025@0.25.1680.1025" timestamp="1621960931238" />
+    <state width="500" height="445" key="SwitcherDM/0.25.1680.1025@0.25.1680.1025" timestamp="1623644346542" />
+    <state x="380" y="277" width="920" height="623" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1623595478312">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state x="380" y="277" width="920" height="623" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.25.1680.1025@0.25.1680.1025" timestamp="1623595478312" />
+    <state x="541" y="292" width="597" height="490" key="find.popup" timestamp="1623580254676">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state x="541" y="292" width="597" height="490" key="find.popup/0.25.1680.1025@0.25.1680.1025" timestamp="1623580254676" />
     <state x="505" y="252" width="670" height="676" key="search.everywhere.popup" timestamp="1621960963693">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
@@ -257,6 +277,10 @@
           </properties>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <breakpoint enabled="true" suspend="THREAD" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
