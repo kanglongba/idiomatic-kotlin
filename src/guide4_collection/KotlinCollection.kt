@@ -6,6 +6,7 @@ package guide4_collection
  * version：1.0
  * description:
  * commit4
+ * commit5
  */
 //不可变集合
 var list1 = listOf("Mike", "Lily", "Lucy")
