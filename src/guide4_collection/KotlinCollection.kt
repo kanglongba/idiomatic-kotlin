@@ -5,6 +5,7 @@ package guide4_collection
  * created on: 2021/6/14 12:24 下午
  * version：1.0
  * description:
+ * commit4
  */
 //不可变集合
 var list1 = listOf("Mike", "Lily", "Lucy")
