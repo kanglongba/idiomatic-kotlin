@@ -22,28 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="499b111b-e868-4f18-87b5-e007ec0e15b0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/guide1_FunAndVar/FunAndVar.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guide2_control/Control.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guide3_classAndObject/ClassAndObject.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guide3_classAndObject/ConstructFuction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinAnonymousInnerClass.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinClass.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinCompanionObject.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinDataClass.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinInterface.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinModify.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinSealedClass.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinSingleton.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guide3_classAndObject/OpenKotlinClass.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guide4_collection/KotlinCollection.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guide5_nullpointcheck/KotlinNullPointCheck.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap15_reified_parameters/ReifiedParameter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chap15_reified_parameters/ReifiedParameter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap17_variance/DeclarationSiteContravariance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chap17_variance/DeclarationSiteContravariance.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap17_variance/GenericInvariance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chap17_variance/GenericInvariance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap17_variance/Variance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chap17_variance/Variance.java" afterDir="false" />
-    </list>
+    <list default="true" id="499b111b-e868-4f18-87b5-e007ec0e15b0" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -205,6 +184,49 @@
       <option name="presentableId" value="Default" />
       <updated>1532314320231</updated>
     </task>
+    <task id="LOCAL-00001" summary="端午节">
+      <created>1623900956582</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623900956582</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit1">
+      <created>1623901003956</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1623901003956</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit2">
+      <created>1623901018952</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623901018952</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commit3">
+      <created>1623901031075</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1623901031075</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit3">
+      <created>1623901068592</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1623901068592</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commit5">
+      <created>1623901087551</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1623901087551</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,6 +240,14 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="端午节" />
+    <MESSAGE value="commit1" />
+    <MESSAGE value="commit2" />
+    <MESSAGE value="commit3" />
+    <MESSAGE value="commit5" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit5" />
   </component>
   <component name="WindowStateProjectService">
     <state x="774" y="279" key="#com.intellij.ide.util.MemberChooser" timestamp="1623659014152">
