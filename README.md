@@ -1,3 +1,6 @@
+# My Kotlin Learning Project
+Forked form tompee26's [idiomatic-kotlin](https://github.com/tompee26/idiomatic-kotlin) 。
+
 # Idiomatic Kotlin
 Contains all the code presented in the Idiomatic Kotlin tutorial series.
 
