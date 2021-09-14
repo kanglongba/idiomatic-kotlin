@@ -26,3 +26,8 @@ Contains all the code presented in the Idiomatic Kotlin tutorial series.
 19. [Idiomatic Kotlin: Annotation Processor and Code Generation](https://medium.com/tompee/kotlin-annotation-processor-and-code-generation-58bd7d0d333b)
 
 Check out all the other articles on the publication as well [here](https://medium.com/tompee).
+
+# My Supplement
+
+## Chapters:
+1. ["Kotlin"系列: 一、Kotlin入门](https://juejin.cn/post/6942251919662383134#heading-39)
