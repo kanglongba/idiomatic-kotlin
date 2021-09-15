@@ -38,7 +38,7 @@ fun main(vararg args: String) {
     }
 
     //集合的函数式api。实际上minBy是一个高阶函数。
-    var min = list2.minBy {
+    var min = list2.minByOrNull {
         it.length
     }
     println(min)
@@ -49,25 +49,25 @@ fun main(vararg args: String) {
         name.length
     }
     //2.高阶函数，参数是函数类型
-    list2.minBy(selector)
+    list2.minByOrNull(selector)
     //3.替换lambda表达式
-    list2.minBy({ name: String ->
+    list2.minByOrNull({ name: String ->
         name.length
     })
     //4.lambda表达式作为最后一个参数，可以放在扩展外面
-    list2.minBy() { name: String ->
+    list2.minByOrNull() { name: String ->
         name.length
     }
     //5.函数只有lambda表达式一个参数，可以省略扩展
-    list2.minBy { name: String ->
+    list2.minByOrNull { name: String ->
         name.length
     }
     //6.lambda表达式只有一个参数，可以省略参数声明，在代码块中用it代替
-    list2.minBy {
+    list2.minByOrNull {
         it.length
     }
     //7.有时候如果觉得it表意不明显，可以自定义名字(其实就是类型推导，省略了声明中参数类型）
-    list2.minBy { name ->
+    list2.minByOrNull { name ->
         name.length
     }
 
