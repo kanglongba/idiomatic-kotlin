@@ -11,12 +11,14 @@ class KotlinClass {
     //变量默认是public类型。
     //Kotlin自动为变量创建get和set方法，可重写get和set方法。
     var name = "Kotlin"
-    get() { //field代指变量本身
-        return field.toUpperCase()
-    }
-    set(value) {
-        field = value.toLowerCase()
-    }
+        get() {
+            //field代指变量本身
+            return field.uppercase()
+        }
+        set(value) {
+            //field代指变量本身
+            field = value.lowercase()
+        }
     var size = 1
 
     //val只能读不能写，所以只有get方法，没有set方法

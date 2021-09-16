@@ -9,7 +9,7 @@ package guide2_control
 class ControlLogic {
     var age = 15
 
-    fun controlIf() : Int {
+    fun controlIf(): Int {
         if (age > 15) {
             "mike"
             return 100
@@ -23,21 +23,21 @@ class ControlLogic {
     }
 
     //if语句的最后一行是返回值
-    fun controlIf2(age : Int) : Int {
+    fun controlIf2(age: Int): Int {
         return if (age > 15) {
             "mike"
-             100
+            100
         } else if (age > 100) {
             "Lucy"
-             200
+            200
         } else {
             "Lily"
-             300
+            300
         }
     }
 
     //if语句可以看成是一个代码块，省略函数体
-    fun controlIf3(age : Int) : Int = if (age > 15) {
+    fun controlIf3(age: Int): Int = if (age > 15) {
         "mike"
         100
     } else if (age > 100) {
@@ -48,16 +48,16 @@ class ControlLogic {
         300
     }
 
-    //条件代码是一行时，可以省略大括号。并且不像Java，ide并不会提示错误
-    fun controlIf4(age : Int) : Int = if (age > 15)
+    //代码块是一行时，可以省略大括号。并且不像Java，ide并不会提示错误
+    fun controlIf4(age: Int): Int = if (age > 15)
         100
     else if (age > 100)
         200
     else
         300
 
-    fun controlWhen(name : String) : String {
-        when(name) {
+    fun controlWhen(name: String): String {
+        when (name) {
             "Lily" -> {
                 age = 18
                 return "Lily"
@@ -71,8 +71,8 @@ class ControlLogic {
     }
 
     //代码块的最后一行是返回值
-    fun controlWhen2(name : String) : String {
-        return when(name) {
+    fun controlWhen2(name: String): String {
+        return when (name) {
             "Lily" -> {
                 age = 18
                 "Lily"
@@ -80,13 +80,13 @@ class ControlLogic {
             "Lucy" -> {
                 "Lily"
             }
-            "Mike" ->  "Mike"
+            "Mike" -> "Mike"
             else -> "Jim"
         }
     }
 
     //可以省略when的条件
-    fun controlWhen3(name : String) : String {
+    fun controlWhen3(name: String): String {
         return when {
             name == "Lily" -> {
                 age = 18
@@ -95,40 +95,48 @@ class ControlLogic {
             name == "Lucy" -> {
                 "Lily"
             }
-            name == "Mike" ->  "Mike"
+            name == "Mike" -> "Mike"
             else -> "Jim"
         }
     }
 
     //when代码块可以看成一行
-    fun controlWhen4(name : String) : String  = when {
-            name == "Lily" -> {
-                age = 18
-                "Lily"
-            }
-            name == "Lucy" -> {
-                "Lily"
-            }
-            name == "Mike" ->  "Mike"
-            else -> "Jim"
+    fun controlWhen4(name: String): String = when {
+        name == "Lily" -> {
+            age = 18
+            "Lily"
         }
+        name == "Lucy" -> {
+            "Lily"
+        }
+        name == "Mike" -> "Mike"
+        else -> "Jim"
+    }
+
+    //代码块只有一行时，可以省略大括号
+    fun controlWhen5(name: String): String = when {
+        name == "Lily" -> "Lily"
+        name == "Lucy" -> "Lucy"
+        name == "Mike" -> "Mike"
+        else -> "Jim"
+    }
 
     //左闭右闭
-    fun controlCircle(age : Int) : Unit {
+    fun controlCircle(age: Int): Unit {
         for (score in 1..10) {
             print(score)
         }
     }
 
     //左闭右开
-    fun controlCircle1(age : Int) : Unit {
+    fun controlCircle1(age: Int): Unit {
         for (score in 1 until 10) {
             print(score)
         }
     }
 
     //左闭右闭
-    fun controlCircle2(age : Int) : Unit {
+    fun controlCircle2(age: Int): Unit {
         for (score in 10 downTo 1) {
             print(score)
         }
@@ -154,6 +162,7 @@ class ControlLogic {
         }
     }
 
+    //和Java中完全一样
     fun controlWhile() {
         while (age < 20) {
             print(age)

@@ -10,12 +10,12 @@ interface KotlinInterface {
     //kotlin中的接口，不能定义变量
     //val name = "Mike"
 
-    fun plus(x : Int, y : Int) : Int
+    fun plus(x: Int, y: Int): Int
 
     //kotlin中的方法，可以有默认实现。类似于Java8中的default关键字
-    fun minus(x: Int,y: Int) : Int {
-        return x-y
+    fun minus(x: Int, y: Int): Int {
+        return x - y
     }
 
-    fun divide(x: Int,y: Int) : Int = x/y
+    fun divide(x: Int, y: Int): Int = x / y
 }

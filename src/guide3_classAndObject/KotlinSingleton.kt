@@ -1,6 +1,7 @@
 package guide3_classAndObject
 
 /**
+ * 单例类中可以定义常量
  * author: qonyqian
  * created on: 2021/6/14 12:47 上午
  * version：1.0

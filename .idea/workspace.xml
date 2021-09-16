@@ -22,10 +22,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="499b111b-e868-4f18-87b5-e007ec0e15b0" name="Default" comment="添加委托">
-      <change afterPath="$PROJECT_DIR$/src/guide12_infix/KotlinInfix.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guide13_dsl/KotlinDSL.kt" afterDir="false" />
+    <list default="true" id="499b111b-e868-4f18-87b5-e007ec0e15b0" name="Default" comment="添加infix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guide1_FunAndVar/FunAndVar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide1_FunAndVar/FunAndVar.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guide2_control/Control.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide2_control/Control.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guide3_classAndObject/ClassAndObject.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide3_classAndObject/ClassAndObject.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guide3_classAndObject/ConstructFuction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide3_classAndObject/ConstructFuction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinAnonymousInnerClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinAnonymousInnerClass.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinClass.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinCompanionObject.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinCompanionObject.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinDataClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinDataClass.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinInterface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinInterface.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinSingleton.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinSingleton.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +89,7 @@
       <recent name="E:\AndroidProjects\idiomatic-kotlin\src\chap17_variance" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.KotlinDelegateKt">
+  <component name="RunManager" selected="Kotlin.ClassAndObjectKt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -95,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KotlinCollectionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="guide4_collection.KotlinCollectionKt" />
+    <configuration name="ClassAndObjectKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="guide3_classAndObject.ClassAndObjectKt" />
       <module name="IdiomaticKotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,14 +148,15 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.KotlinCollectionKt" />
       <item itemvalue="Kotlin.KotlinExtendFunctionAndOperatorKt" />
       <item itemvalue="Kotlin.KotlinStringAndDefaultParamKt" />
       <item itemvalue="Kotlin.KotlinGenericKt" />
       <item itemvalue="Kotlin.KotlinDelegateKt" />
+      <item itemvalue="Kotlin.ClassAndObjectKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ClassAndObjectKt" />
         <item itemvalue="Kotlin.KotlinDelegateKt" />
         <item itemvalue="Kotlin.KotlinGenericKt" />
       </list>
@@ -242,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631708252781</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="添加infix">
+      <created>1631786089248</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1631786089248</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -268,7 +284,8 @@
     <MESSAGE value="更新readme" />
     <MESSAGE value="添加高阶函数和内联函数" />
     <MESSAGE value="添加委托" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加委托" />
+    <MESSAGE value="添加infix" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加infix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

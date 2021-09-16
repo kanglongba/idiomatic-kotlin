@@ -1,6 +1,7 @@
 package guide3_classAndObject
 
 /**
+ * 伴生类中可以定义常量
  * author: qonyqian
  * created on: 2021/6/14 11:58 上午
  * version：1.0

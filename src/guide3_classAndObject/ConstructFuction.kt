@@ -18,16 +18,16 @@ package chap08_lambdas_sam_constructors
  * 父类有构造函数(无论主次)的情况
  */
 open class Person {
-    var name : String = "judy"
-    get() {
-        return field.toUpperCase()
-    }
-    set(value) {
-        field = value.toLowerCase()
-    }
+    var name: String = "judy"
+        get() {
+            return field.uppercase()
+        }
+        set(value) {
+            field = value.lowercase()
+        }
     var age = 15
 
-    constructor(name : String) {
+    constructor(name: String) {
         this.name = name
     }
 
@@ -36,7 +36,7 @@ open class Person {
 //
 //    }
 
-    constructor(name : String, age: Int) {
+    constructor(name: String, age: Int) {
         this.name = name
         this.age = age
     }
@@ -45,7 +45,7 @@ open class Person {
         this.age = age
     }
 
-    fun print() : Unit {
+    fun print(): Unit {
         print("name=$name, age=$age")
     }
 }
@@ -61,9 +61,10 @@ class Student : Person("Lily") {
 
 /**
  * 父类有构造函数的情况：
- * 1.子类有主要构造函数
+ * 1.子类必须显式继承一个
+ * 2.子类可以有主要构造函数
  */
-class Driver(age : Int) : Person("Mike") {
+class Driver(age: Int) : Person("Mike") {
     init {
         //init代码块是主要构造函数的初始化代码
         this.age = age
@@ -72,7 +73,8 @@ class Driver(age : Int) : Person("Mike") {
 
 /**
  * 父类有构造函数的情况：
- * 1.子类有主要构造函数和次要构造函数
+ * 1.子类必须显式继承一个
+ * 2.子类可以有主要构造函数和次要构造函数
  */
 class Teacher(var city: String) : Person("Lucy", 30) {
     //主构造函数中用var或val关键字修饰变量，变量会自动添加为类的成员变量，并且被构造函数自动初始化
@@ -95,7 +97,8 @@ class Teacher(var city: String) : Person("Lucy", 30) {
 
 /**
  * 父类有构造函数的情况：
- * 1.子类只有次要构造函数会报错
+ * 1.子类必须显式继承一个
+ * 2.子类只有次要构造函数会报错
  */
 class Sporter : Person(18) {
 
@@ -109,11 +112,11 @@ class Sporter : Person(18) {
  * 没有任何构造函数
  */
 open class Car {
-    var width : Int = 2
-    var height : Int = 2
+    var width: Int = 2
+    var height: Int = 2
     var name = "car"
 
-    fun print() : Unit {
+    fun print(): Unit {
         print("$name width=$width height=$height")
     }
 }
@@ -130,12 +133,12 @@ class BYD : Car() {
  * 父类没有构造函数的情况：
  * 1.子类有主构造函数，继承的父类要有括号
  */
-class Changcheng(var cost :Int) : Car() {
+class Changcheng(var cost: Int) : Car() {
 
     /**
      * 次要构造函数继承主要构造函数
      */
-    constructor(name: String) : this(1000){
+    constructor(name: String) : this(1000) {
 
     }
 
