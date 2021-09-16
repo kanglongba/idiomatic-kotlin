@@ -22,12 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="499b111b-e868-4f18-87b5-e007ec0e15b0" name="Default" comment="添加高阶函数和内联函数">
-      <change afterPath="$PROJECT_DIR$/src/guide11_delegateAndGeneric/KotlinDelegate.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guide11_delegateAndGeneric/KotlinGeneric.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+    <list default="true" id="499b111b-e868-4f18-87b5-e007ec0e15b0" name="Default" comment="添加委托">
+      <change afterPath="$PROJECT_DIR$/src/guide12_infix/KotlinInfix.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guide13_dsl/KotlinDSL.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide4_collection/KotlinCollection.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide4_collection/KotlinCollection.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631636235549</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="添加委托">
+      <created>1631708252781</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1631708252781</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,7 +267,8 @@
     <MESSAGE value="初始化仓库" />
     <MESSAGE value="更新readme" />
     <MESSAGE value="添加高阶函数和内联函数" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加高阶函数和内联函数" />
+    <MESSAGE value="添加委托" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加委托" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
