@@ -1,7 +1,5 @@
 package guide8_sealedAndLateInit
 
-import kotlin.properties.Delegates
-
 /**
  * author: qonyqian
  * created on: 2021/8/29 12:06 下午
@@ -31,6 +29,6 @@ class KotlinLateInit {
     }
 
     fun getMyName(): String {
-        return name.toUpperCase()
+        return name.uppercase()
     }
 }

@@ -16,7 +16,10 @@ class Student {
         return 5
     }
 
-    //Student对象原本没有这些运算符，利用运算符重载，使Student对象也支持运算符操作
+    /**
+     * Student对象原本没有这些运算符，利用运算符重载，使Student对象也支持运算符操作
+     * 运算符重载，需要使用 operator 关键字。
+     */
     operator fun plus(other: Student): Int {
         return age + other.age
     }

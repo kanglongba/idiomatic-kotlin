@@ -7,7 +7,6 @@ package guide6_stringAndDefaultParam
  * description:
  */
 
-
 fun main(vararg args: String) {
     val kotlinString = KotlinString()
     kotlinString.printInfo()

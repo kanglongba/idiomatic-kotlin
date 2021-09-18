@@ -4,7 +4,8 @@ import guide7_staticMethodAndStandardMethod.Student
 
 /**
  * 扩展函数
- * 1.一般我们要定义哪个类的扩展函数，我们就定义一个同名的 Kotlin 文件，便于后续查找，虽然说也可以定义在任何一个类中，但是更推荐将它定义成顶层方法，这样可以让扩展方法拥有全局的访问域
+ * 1.一般我们要定义哪个类的扩展函数，我们就定义一个同名的 Kotlin 文件，便于后续查找，虽然说也可以定义在任何一个类中，但是更推
+ * 荐将它定义成顶层方法，这样可以让扩展方法拥有全局的访问域
  * 2.扩展函数默认拥有这个类的上下文环境
  *
  * 运算符重载
@@ -25,15 +26,29 @@ fun Student.playFootBoll() {
     println(name)
 }
 
+/**
+ * 参数是一个普通类型
+ */
+fun Student.work(day: Int): Int {
+    return age * day
+}
+
 //参数是lambda表达式的扩展函数
 fun Student.cook(block: (Student) -> Int): Int {
     return block(this)
+}
+
+//略微修改一下参数，使lambda表达式变成Student的扩展函数形式
+fun Student.eat(block: Student.() -> Int): Int {
+    return block()
 }
 
 fun main(vararg args: String) {
     val student = Student()
     //调用扩展函数
     student.playFootBoll()
+
+    val money = student.work(5)
 
     //定义一个函数类型的变量，完整写法
     val block: (Student) -> Int = { stu: Student ->
@@ -51,6 +66,11 @@ fun main(vararg args: String) {
     }
     student.cook {
         it.age
+    }
+
+    //注意观察eat与cook的不同，就像also和apply
+    student.eat {
+        age
     }
 
 

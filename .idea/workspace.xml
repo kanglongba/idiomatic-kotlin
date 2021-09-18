@@ -22,10 +22,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="499b111b-e868-4f18-87b5-e007ec0e15b0" name="Default" comment="修改注释">
-      <change afterPath="$PROJECT_DIR$/src/guide4_lambdaAndCollection/KotlinLambdaAndCollection.kt" afterDir="false" />
+    <list default="true" id="499b111b-e868-4f18-87b5-e007ec0e15b0" name="Default" comment="修改lambda表达式">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide4_collection/KotlinCollection.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guide5_nullpointcheck/KotlinNullPointCheck.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide5_nullpointcheck/KotlinNullPointCheck.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guide6_stringAndDefaultParam/KotlinDefaultParam.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide6_stringAndDefaultParam/KotlinDefaultParam.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guide6_stringAndDefaultParam/KotlinString.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide6_stringAndDefaultParam/KotlinString.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guide6_stringAndDefaultParam/KotlinStringAndDefaultParam.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide6_stringAndDefaultParam/KotlinStringAndDefaultParam.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guide7_staticMethodAndStandardMethod/KotlinStandardAndStatic.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide7_staticMethodAndStandardMethod/KotlinStandardAndStatic.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guide7_staticMethodAndStandardMethod/KotlinStaticMethod.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide7_staticMethodAndStandardMethod/KotlinStaticMethod.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guide7_staticMethodAndStandardMethod/Singleton.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide7_staticMethodAndStandardMethod/Singleton.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guide7_staticMethodAndStandardMethod/Student.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide7_staticMethodAndStandardMethod/Student.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guide8_sealedAndLateInit/KotlinLateInit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide8_sealedAndLateInit/KotlinLateInit.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guide8_sealedAndLateInit/KotlinSealedClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide8_sealedAndLateInit/KotlinSealedClass.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guide9_extendFunctionAndOperator/KotlinExtendFunctionAndOperator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide9_extendFunctionAndOperator/KotlinExtendFunctionAndOperator.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631801054362</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="修改lambda表达式">
+      <created>1631889657528</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1631889657528</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,7 +301,8 @@
     <MESSAGE value="添加委托" />
     <MESSAGE value="添加infix" />
     <MESSAGE value="修改注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改注释" />
+    <MESSAGE value="修改lambda表达式" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改lambda表达式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

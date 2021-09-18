@@ -7,6 +7,9 @@ package guide7_staticMethodAndStandardMethod
  * description:
  */
 
+/**
+ * 只能在顶层声明、伴生类、单例类中定义常量。
+ */
 const val TAG = "Static"
 
 /**
@@ -14,7 +17,7 @@ const val TAG = "Static"
  * 2.如果在 Java 中调用顶层方法，Java 默认是没有顶层方法的概念的，Kotlin 编译器会生成一个我们定义这个文件的 Java 类，例
  * 如我在 Kotlin 中的 Util.kt 文件中定义了一个顶层方法，那么就会生成一个 UtilKt 的 Java 类供在 Java 中调用
  */
-fun getMySchool() : String {
+fun getMySchool(): String {
     return "CX"
 }
 
