@@ -22,13 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="499b111b-e868-4f18-87b5-e007ec0e15b0" name="Default" comment="更新知识">
+    <list default="true" id="499b111b-e868-4f18-87b5-e007ec0e15b0" name="Default" comment="更新注释">
+      <change afterPath="$PROJECT_DIR$/src/guide14_advancedGeneric/JavaAdvancedGeneric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guide14_advancedGeneric/KotlinAdvancedGeneric.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide10_higherOrderFunction/KotlinHigherOrderFuction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide10_higherOrderFunction/KotlinHigherOrderFuction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide10_higherOrderFunction/KotlinInlineFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide10_higherOrderFunction/KotlinInlineFunction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide11_delegateAndGeneric/KotlinDelegate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide11_delegateAndGeneric/KotlinDelegate.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide11_delegateAndGeneric/KotlinGeneric.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide11_delegateAndGeneric/KotlinGeneric.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide12_infix/KotlinInfix.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide12_infix/KotlinInfix.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -84,7 +82,21 @@
       <recent name="E:\AndroidProjects\idiomatic-kotlin\src\chap17_variance" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.KotlinInlineFunctionKt">
+  <component name="RunManager" selected="Application.JavaAdvancedGeneric">
+    <configuration name="JavaAdvancedGeneric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="guide14_advancedGeneric.JavaAdvancedGeneric" />
+      <module name="IdiomaticKotlin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guide14_advancedGeneric.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -126,13 +138,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KotlinStringAndDefaultParamKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="guide6_stringAndDefaultParam.KotlinStringAndDefaultParamKt" />
-      <module name="IdiomaticKotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -143,14 +148,15 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.KotlinStringAndDefaultParamKt" />
       <item itemvalue="Kotlin.KotlinGenericKt" />
       <item itemvalue="Kotlin.KotlinDelegateKt" />
       <item itemvalue="Kotlin.ClassAndObjectKt" />
       <item itemvalue="Kotlin.KotlinInlineFunctionKt" />
+      <item itemvalue="Application.JavaAdvancedGeneric" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaAdvancedGeneric" />
         <item itemvalue="Kotlin.KotlinInlineFunctionKt" />
         <item itemvalue="Kotlin.ClassAndObjectKt" />
         <item itemvalue="Kotlin.KotlinDelegateKt" />
@@ -275,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631947685745</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="更新注释">
+      <created>1632131554204</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1632131554204</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -305,7 +318,8 @@
     <MESSAGE value="修改注释" />
     <MESSAGE value="修改lambda表达式" />
     <MESSAGE value="更新知识" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新知识" />
+    <MESSAGE value="更新注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新注释" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

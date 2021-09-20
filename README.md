@@ -31,3 +31,7 @@ Check out all the other articles on the publication as well [here](https://mediu
 
 ## Chapters:
 1. ["Kotlin"系列: 一、Kotlin入门](https://juejin.cn/post/6942251919662383134#heading-39)
+2. ["Kotlin"系列: 二、Kotlin泛型](https://juejin.cn/post/6950042154496425992)
+3. [聊一聊-JAVA 泛型中的通配符 T，E，K，V，？](https://juejin.cn/post/6844903917835419661)
+4. [java泛型 通配符详解及实践](https://www.jianshu.com/p/e3d58360e51f)
+5. ["Kotlin"系列: 三、Kotlin协程(上)](https://juejin.cn/post/6963190541471186957#heading-26)
