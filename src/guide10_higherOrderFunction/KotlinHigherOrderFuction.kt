@@ -1,6 +1,8 @@
 package guide10_higherOrderFunction
 
 /**
+ * 高阶函数的定义：一个函数接收另外一个函数作为参数，或者返回值，那么就可以称之为高阶函数
+ *
  * author: qonyqian
  * created on: 2021/9/12 5:39 下午
  * version：1.0

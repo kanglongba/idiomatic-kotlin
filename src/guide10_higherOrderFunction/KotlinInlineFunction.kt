@@ -30,10 +30,12 @@ inline fun inlineFunc(block1: () -> Unit, noinline block2: () -> Unit) {
 }
 
 /**
- * 1、内联函数在编译的时候会进行代码替换，因此它没有真正的参数属性，它的函数类型参数只能传递给另外一个内联函数，而非内联函数的函数类型参数可以自由地传递给其他任何函数
- * 2、内联函数所引用的 Lambda 表达式可以使用 return 关键字来进行函数返回，非内联函数所引用的 Lambda 表达式可以使用 return@Method 语法结构来进行局部返回
+ * 1、内联函数在编译的时候会进行代码替换，因此它没有真正的参数属性，它的函数类型参数只能传递给另外一个内联函数，而非内联函数的函数类
+ * 型参数可以自由地传递给其他任何函数
+ * 2、内联函数所引用的 Lambda 表达式可以使用 return 关键字来进行函数返回，非内联函数所引用的 Lambda 表达式可以使用 return@Method
+ * 语法结构来进行局部返回
  *
- * 情况1：非内联函数所引用的 Lambda 表达式可以使用 return 关键字来进行局部返回
+ * 情况1：非内联函数所引用的 Lambda 表达式不可以使用 return 关键字来进行局部返回，只能使用 return@Method 进行局部返回
  */
 fun printString(str: String, block: (String) -> Unit) {
     println("printString1 start...")
@@ -42,7 +44,7 @@ fun printString(str: String, block: (String) -> Unit) {
 }
 
 /**
- * 情况2：内联函数所引用的 Lambda 表达式可以使用 return 关键字来进行函数返回。
+ * 情况2：内联函数所引用的 Lambda 表达式可以使用 return 关键字来进行函数返回，也可以使用 return@Method 进行局部返回
  *
  * 因为内联函数直接进行代码替换，return获得了全局返回效果。
  */
@@ -53,7 +55,8 @@ inline fun printString2(str: String, block: (String) -> Unit) {
 }
 
 /**
- * 使用 crossinline 关键字保证内联函数的 Lambda 表达式中一定不会使用 return 关键字，但是还是可以使用 return@Method 语法结构进行局部返回，其他方面和内联函数特性一致
+ * 使用 crossinline 关键字保证内联函数的 Lambda 表达式中一定不会使用 return 关键字，但是还是可以使用 return@Method 语法结构
+ * 进行局部返回，其他方面和内联函数特性一致。
  */
 inline fun runRunnable(crossinline block: () -> Unit) {
     println("runRunnable start...")
@@ -68,27 +71,38 @@ inline fun runRunnable(crossinline block: () -> Unit) {
 fun main(vararg arg: String) {
     println("main start...")
     val str = ""
+    test1(str)
+    test2(str)
+    test3(str)
+    println("main end...")
+}
+
+fun test1(str: String) {
     printString(str) {
         println("lambda1 start...")
         /**
          * 1，非内联函数不能直接使用 return 关键字进行局部返回
-         * 2，需要使用 return@printString 进行局部返回
+         * 2，需要使用 return@printString 进行局部返回(从lambda表达式中返回，回到外层函数)
          */
         if (str.isEmpty()) return@printString
         println(it)
         println("lambda1 end...")
     }
+}
 
+fun test2(str: String) {
     printString2(str) {
         println("lambda2 start...")
         /**
-         * 因为内联函数会进行代码替换，因此这个 return 就相当于外层函数调用的一个返回
+         * 因为内联函数会进行代码替换，因此这个 return 就相当于外层函数调用的一个返回，具有函数返回效果
          */
         if (str.isEmpty()) return
         println(it)
         println("lambda2 end...")
     }
+}
 
+fun test3(str: String) {
     runRunnable {
         println("lambda3 start...")
         /**
@@ -101,9 +115,8 @@ fun main(vararg arg: String) {
         return@runRunnable
         println("lambda3 end...")
     }
-
-    println("main end...")
 }
+
 
 
 

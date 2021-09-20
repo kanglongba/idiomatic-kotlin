@@ -6,6 +6,7 @@ import kotlin.reflect.KProperty
  * 委托分为类委托和属性委托：
  * 1.类委托的核心思想是：将一个类的一些具体实现委托给另一个类去完成。
  * 2.属性委托的核心思想：是将一个属性的具体实现委托给另一个类去完成。
+ *
  * author: qonyqian
  * created on: 2021/9/15 4:58 下午
  * version：1.0
@@ -39,10 +40,17 @@ class OneInterface : IInterface {
  */
 class TwoInterface(one: OneInterface) : IInterface by one {
 
+    /**
+     * method1和method2使用OneInterface的实现。
+     * method3覆盖OneInterface的实现。
+     */
     override fun method3() {
         println("TwoInterface method3")
     }
 
+    /**
+     * 新增方法
+     */
     fun method4() {
         println("TwoInterface method4")
     }

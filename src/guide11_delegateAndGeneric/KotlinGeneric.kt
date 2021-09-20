@@ -1,6 +1,9 @@
 package guide11_delegateAndGeneric
 
 /**
+ * 泛型就是参数化类型，它允许我们在不指定具体类型的情况下进行编程。我们在定义一个类，方法，或者接口的时候，给他们加上一个类型
+ * 参数，就是为这个类，方法，或者接口添加了一个泛型。
+ *
  * author: qonyqian
  * created on: 2021/9/15 12:19 上午
  * version：1.0

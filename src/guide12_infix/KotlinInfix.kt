@@ -1,6 +1,7 @@
 package guide12_infix
 
 /**
+ * infix类型的函数又叫做 中缀函数
  * 使用 infix 关键字创建一个infix类型的函数，通常来说infix函数都是扩展函数。
  * author: qonyqian
  * created on: 2021/9/16 4:40 下午
