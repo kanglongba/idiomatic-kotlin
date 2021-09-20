@@ -57,7 +57,11 @@ class MyClass1<T : Number> {
 
     }
 
-    fun <R : Number> method2(params: R) {
+    fun <T> method2(params: T) {
+
+    }
+
+    fun <R : Number> method3(params: R) {
 
     }
 }
@@ -96,7 +100,7 @@ class SimpleData1<out T> {
 class SimpleData2<in T> {
 }
 
-//Kotlin中的通配符
+//Kotlin中的无界通配符
 class KotlinGeneric<out T : Number> {
 }
 

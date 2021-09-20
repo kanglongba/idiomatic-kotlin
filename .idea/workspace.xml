@@ -22,12 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="499b111b-e868-4f18-87b5-e007ec0e15b0" name="Default" comment="更新注释">
-      <change afterPath="$PROJECT_DIR$/src/guide14_advancedGeneric/JavaAdvancedGeneric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guide14_advancedGeneric/KotlinAdvancedGeneric.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="499b111b-e868-4f18-87b5-e007ec0e15b0" name="Default" comment="添加泛型" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -288,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632131554204</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="添加泛型">
+      <created>1632142987515</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1632142987515</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -319,7 +321,8 @@
     <MESSAGE value="修改lambda表达式" />
     <MESSAGE value="更新知识" />
     <MESSAGE value="更新注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新注释" />
+    <MESSAGE value="添加泛型" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加泛型" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
