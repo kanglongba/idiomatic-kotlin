@@ -35,3 +35,7 @@ Check out all the other articles on the publication as well [here](https://mediu
 3. [聊一聊-JAVA 泛型中的通配符 T，E，K，V，？](https://juejin.cn/post/6844903917835419661)
 4. [java泛型 通配符详解及实践](https://www.jianshu.com/p/e3d58360e51f)
 5. ["Kotlin"系列: 三、Kotlin协程(上)](https://juejin.cn/post/6963190541471186957#heading-26)
+
+# Other
+1. [使用 Maven 构建 Java 项目](https://www.jianshu.com/p/ccb836969afd)
+2. [IntelliJ IDEA普通项目添加pom.xml，转变为Maven项目](https://www.jianshu.com/p/1a777cb43aad)
