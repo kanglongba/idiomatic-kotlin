@@ -36,6 +36,9 @@ Check out all the other articles on the publication as well [here](https://mediu
 4. [java泛型 通配符详解及实践](https://www.jianshu.com/p/e3d58360e51f)
 5. ["Kotlin"系列: 三、Kotlin协程(上)](https://juejin.cn/post/6963190541471186957#heading-26)
 6. [使用 Kotlin 开发 Android 应用](https://developer.android.com/kotlin)
+7. [Kotlin 的协程用力瞥一眼 - 学不会协程？很可能因为你看过的教程都是错的](https://rengwuxian.com/kotlin-coroutines-1/)
+8. [Kotlin 协程的挂起好神奇好难懂？今天我把它的皮给扒了](https://rengwuxian.com/kotlin-coroutines-2/)
+9. [到底什么是「非阻塞式」挂起？协程真的更轻量级吗？](https://rengwuxian.com/kotlin-coroutines-3/)
 
 # Other
 1. [使用 Maven 构建 Java 项目](https://www.jianshu.com/p/ccb836969afd)
