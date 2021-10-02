@@ -22,94 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="499b111b-e868-4f18-87b5-e007ec0e15b0" name="Default" comment="添加泛型">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guide15_coroutine/KotlinCoroutine.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="499b111b-e868-4f18-87b5-e007ec0e15b0" name="Default" comment="把工程改为maven工程">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdiomaticKotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IdiomaticKotlin.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap01_extension_functions/ExtensionFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap01_extension_functions/ExtensionFunction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap01_extension_functions/ExtensionProperties.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap01_extension_functions/ExtensionProperties.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap01_extension_functions/InheritanceAndPolymorphism.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap01_extension_functions/InheritanceAndPolymorphism.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap02_sealed_classes/LegacyApproach.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap02_sealed_classes/LegacyApproach.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap02_sealed_classes/SealedClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap02_sealed_classes/SealedClass.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap03_infix_function/InfixFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap03_infix_function/InfixFunction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap04_class_delegation/DelegationSample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap04_class_delegation/DelegationSample.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap05_local_function/LocalFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap05_local_function/LocalFunction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap06_object_and_singleton/Singleton.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap06_object_and_singleton/Singleton.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap07_sequence/SequenceSample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap07_sequence/SequenceSample.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap08_lambdas_sam_constructors/Invoke.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap08_lambdas_sam_constructors/Invoke.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap08_lambdas_sam_constructors/LambdaPass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap08_lambdas_sam_constructors/LambdaPass.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap08_lambdas_sam_constructors/SAMConversion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap08_lambdas_sam_constructors/SAMConversion.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap08_lambdas_sam_constructors/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap08_lambdas_sam_constructors/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap09_lambda_receiver_dsl/ViewCreator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap09_lambda_receiver_dsl/ViewCreator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap10_elvis_operator/ElvisSyntax.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap10_elvis_operator/ElvisSyntax.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap10_elvis_operator/ExpandedElvis.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap10_elvis_operator/ExpandedElvis.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap10_elvis_operator/SafeCall.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap10_elvis_operator/SafeCall.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap11_property_delegation/Delegate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap11_property_delegation/Delegate.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap11_property_delegation/LazyTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap11_property_delegation/LazyTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap11_property_delegation/ManualLazy.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap11_property_delegation/ManualLazy.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap11_property_delegation/ObservableTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap11_property_delegation/ObservableTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap12_higher_order_function_and_function_type/FunctionType.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap12_higher_order_function_and_function_type/FunctionType.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap12_higher_order_function_and_function_type/HigherOrderFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap12_higher_order_function_and_function_type/HigherOrderFunction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap13_inline/InlinedFilter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap13_inline/InlinedFilter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap13_inline/InlinedFunctionReference.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap13_inline/InlinedFunctionReference.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap13_inline/LambdaInstance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap13_inline/LambdaInstance.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap13_inline/NotInlinedFilter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap13_inline/NotInlinedFilter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap14_lambda_and_control_flows/AnonymousFunctionReturns.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap14_lambda_and_control_flows/AnonymousFunctionReturns.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap14_lambda_and_control_flows/InlineReturn.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap14_lambda_and_control_flows/InlineReturn.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap14_lambda_and_control_flows/LambdaReturn.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap14_lambda_and_control_flows/LambdaReturn.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap14_lambda_and_control_flows/NotinlineLambdaReturn.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap14_lambda_and_control_flows/NotinlineLambdaReturn.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap14_lambda_and_control_flows/ReturnWithLabels.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap14_lambda_and_control_flows/ReturnWithLabels.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap15_reified_parameters/ReifiedParameter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap15_reified_parameters/ReifiedParameter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap15_reified_parameters/TypeErasure.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap15_reified_parameters/TypeErasure.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap15_reified_parameters/TypeErasureLimitation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap15_reified_parameters/TypeErasureLimitation.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap16_noinline_crossinline/Crossinline.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap16_noinline_crossinline/Crossinline.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap16_noinline_crossinline/Noinline.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap16_noinline_crossinline/Noinline.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap16_noinline_crossinline/Safidfngd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap16_noinline_crossinline/Safidfngd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap17_variance/Contravariance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap17_variance/Contravariance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap17_variance/Covariance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap17_variance/Covariance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap17_variance/DeclarationSiteContravariance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap17_variance/DeclarationSiteContravariance.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap17_variance/DeclarationSiteCovariance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap17_variance/DeclarationSiteCovariance.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap17_variance/GenericInvariance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap17_variance/GenericInvariance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap17_variance/UseSiteVariance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap17_variance/UseSiteVariance.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chap17_variance/Variance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap17_variance/Variance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide10_higherOrderFunction/KotlinHigherOrderFuction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide10_higherOrderFunction/KotlinHigherOrderFuction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide10_higherOrderFunction/KotlinInlineFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide10_higherOrderFunction/KotlinInlineFunction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide11_delegateAndGeneric/KotlinDelegate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide11_delegateAndGeneric/KotlinDelegate.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide11_delegateAndGeneric/KotlinGeneric.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide11_delegateAndGeneric/KotlinGeneric.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide12_infix/KotlinInfix.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide12_infix/KotlinInfix.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide13_dsl/KotlinDSL.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide13_dsl/KotlinDSL.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide14_advancedGeneric/JavaAdvancedGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide14_advancedGeneric/JavaAdvancedGeneric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide14_advancedGeneric/KotlinAdvancedGeneric.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide14_advancedGeneric/KotlinAdvancedGeneric.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide1_FunAndVar/FunAndVar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide1_FunAndVar/FunAndVar.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide2_control/Control.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide2_control/Control.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide3_classAndObject/ClassAndObject.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide3_classAndObject/ClassAndObject.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide3_classAndObject/ConstructFuction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide3_classAndObject/ConstructFuction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinAnonymousInnerClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide3_classAndObject/KotlinAnonymousInnerClass.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide3_classAndObject/KotlinClass.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinCompanionObject.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide3_classAndObject/KotlinCompanionObject.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinDataClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide3_classAndObject/KotlinDataClass.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinInterface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide3_classAndObject/KotlinInterface.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinModify.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide3_classAndObject/KotlinModify.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinSealedClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide3_classAndObject/KotlinSealedClass.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide3_classAndObject/KotlinSingleton.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide3_classAndObject/KotlinSingleton.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide3_classAndObject/OpenKotlinClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide3_classAndObject/OpenKotlinClass.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide4_lambdaAndCollection/KotlinLambdaAndCollection.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide4_lambdaAndCollection/KotlinLambdaAndCollection.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide5_nullpointcheck/KotlinNullPointCheck.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide5_nullpointcheck/KotlinNullPointCheck.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide6_stringAndDefaultParam/KotlinDefaultParam.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide6_stringAndDefaultParam/KotlinDefaultParam.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide6_stringAndDefaultParam/KotlinString.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide6_stringAndDefaultParam/KotlinString.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide6_stringAndDefaultParam/KotlinStringAndDefaultParam.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide6_stringAndDefaultParam/KotlinStringAndDefaultParam.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide7_staticMethodAndStandardMethod/KotlinStandardAndStatic.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide7_staticMethodAndStandardMethod/KotlinStandardAndStatic.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide7_staticMethodAndStandardMethod/KotlinStandardMethod.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide7_staticMethodAndStandardMethod/KotlinStandardMethod.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide7_staticMethodAndStandardMethod/KotlinStaticMethod.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide7_staticMethodAndStandardMethod/KotlinStaticMethod.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide7_staticMethodAndStandardMethod/Singleton.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide7_staticMethodAndStandardMethod/Singleton.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide7_staticMethodAndStandardMethod/Student.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide7_staticMethodAndStandardMethod/Student.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide8_sealedAndLateInit/KotlinLateInit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide8_sealedAndLateInit/KotlinLateInit.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide8_sealedAndLateInit/KotlinSealedClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide8_sealedAndLateInit/KotlinSealedClass.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide9_extendFunctionAndOperator/KotlinExtendFunctionAndOperator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide9_extendFunctionAndOperator/KotlinExtendFunctionAndOperator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guide15_coroutine/KotlinCoroutine.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide15_coroutine/KotlinCoroutine.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,11 +70,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -385,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632143146665</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="把工程改为maven工程">
+      <created>1633004897516</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1633004897516</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -417,7 +342,8 @@
     <MESSAGE value="更新知识" />
     <MESSAGE value="更新注释" />
     <MESSAGE value="添加泛型" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加泛型" />
+    <MESSAGE value="把工程改为maven工程" />
+    <option name="LAST_COMMIT_MESSAGE" value="把工程改为maven工程" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
