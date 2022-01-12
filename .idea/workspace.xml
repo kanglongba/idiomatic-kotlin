@@ -22,9 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="499b111b-e868-4f18-87b5-e007ec0e15b0" name="Default" comment="添加参考文档">
+    <list default="true" id="499b111b-e868-4f18-87b5-e007ec0e15b0" name="Default" comment="更新协程">
+      <change afterPath="$PROJECT_DIR$/src/main/java/guide16_destructure/KotlinDestructure.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guide15_coroutine/KotlinCoroutine.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guide15_coroutine/KotlinCoroutine.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +82,7 @@
       <recent name="E:\AndroidProjects\idiomatic-kotlin\src\chap17_variance" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.KotlinCoroutineKt">
+  <component name="RunManager" selected="Kotlin.KotlinDestructureKt">
     <configuration name="JavaAdvancedGeneric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="guide14_advancedGeneric.JavaAdvancedGeneric" />
       <module name="IdiomaticKotlin" />
@@ -110,15 +110,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassAndObjectKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="guide3_classAndObject.ClassAndObjectKt" />
+    <configuration name="KotlinCoroutineKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="guide15_coroutine.KotlinCoroutineKt" />
       <module name="IdiomaticKotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KotlinCoroutineKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="guide15_coroutine.KotlinCoroutineKt" />
+    <configuration name="KotlinDestructureKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="guide16_destructure.KotlinDestructureKt" />
       <module name="IdiomaticKotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,17 +150,17 @@
     <list>
       <item itemvalue="Application.JavaAdvancedGeneric" />
       <item itemvalue="Kotlin.KotlinGenericKt" />
-      <item itemvalue="Kotlin.ClassAndObjectKt" />
       <item itemvalue="Kotlin.KotlinInlineFunctionKt" />
       <item itemvalue="Kotlin.KotlinCoroutineKt" />
+      <item itemvalue="Kotlin.KotlinDestructureKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.KotlinDestructureKt" />
         <item itemvalue="Kotlin.KotlinCoroutineKt" />
         <item itemvalue="Kotlin.KotlinGenericKt" />
         <item itemvalue="Application.JavaAdvancedGeneric" />
         <item itemvalue="Kotlin.KotlinInlineFunctionKt" />
-        <item itemvalue="Kotlin.ClassAndObjectKt" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633186490047</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="更新协程">
+      <created>1641883877117</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1641883877117</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -358,7 +365,8 @@
     <MESSAGE value="把工程改为maven工程" />
     <MESSAGE value="添加协程" />
     <MESSAGE value="添加参考文档" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加参考文档" />
+    <MESSAGE value="更新协程" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新协程" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
