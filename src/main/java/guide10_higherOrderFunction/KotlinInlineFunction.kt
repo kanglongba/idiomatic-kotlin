@@ -4,7 +4,7 @@ package guide10_higherOrderFunction
  * 内联函数：可以消除 Lambda 表达式运行时带来的开销。
  * 参数中的 Lambda 表达式在编译后变成了 Function 接口的匿名类实现，这就是 Lambda 表达式的底层转换逻辑，因此我们每调用
  * 一次 Lambda 表达式，都会创建一个新的匿名类实例，这样就会造成额外的内存和性能开销。但是我们使用内联函数，就可以很
- * 好的去解决这个问题。
+ * 好地去解决这个问题。
  * 内联函数的工作流程：Kotlin 编译器会把内联函数中的代码在编译的时候自动替换到调用它的地方 ，这样也就不存在运行时的开销了
  * author: qonyqian
  * created on: 2021/9/14 11:31 下午
@@ -14,8 +14,8 @@ package guide10_higherOrderFunction
 
 /**
  * 定义高阶函数时加上 inline 关键字修饰，我们就可以把这个函数称之为内联函数
- * 第一步替换过程：Kotlin 编译器会把 Lambda 表达式中的代码替换到函数类型参数调用的地方
- * 第二步替换过程：Kotlin 编译器会把内联函数中的全部代码替换到函数调用的地方
+ * 第一步替换过程：Kotlin 编译器会把 Lambda 表达式中的代码替换到函数类型参数调用的地方（内联函数内部）
+ * 第二步替换过程：Kotlin 编译器会把内联函数中的全部代码替换到函数调用的地方（内联函数外部）
  */
 inline fun numberPlus2(a: Int, b: Int, func: (Int, Int) -> Int): Int {
     return func(a, b)
