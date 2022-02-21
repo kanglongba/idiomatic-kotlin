@@ -1,6 +1,9 @@
 # My Kotlin Learning Project
 Forked form tompee26's [idiomatic-kotlin](https://github.com/tompee26/idiomatic-kotlin) 。
 
+# Kotlin Introduce  
+第一次学Kotlin时做的笔记，内容比较简单，也比较少。
+
 # Idiomatic Kotlin
 Contains all the code presented in the Idiomatic Kotlin tutorial series.
 
