@@ -24,11 +24,11 @@ data class KotlinDataClass(var name: String, var age: Int = 18) {
 
     //默认参数
     fun printInfo(school: String = "zju") {
-        println("name=$name shool=$school address=$address")
+        println("name=$name school=$school address=$address")
     }
 
     //默认参数。Kotlin的函数默认值，可以消除方法重载。
     fun printInfo(school: String = "zju", sex: String = "male") {
-        println("name=$name shool=$school sex=$sex address=$address")
+        println("name=$name school=$school sex=$sex address=$address")
     }
 }

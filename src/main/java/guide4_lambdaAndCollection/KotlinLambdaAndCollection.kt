@@ -16,13 +16,13 @@ package guide4_lambdaAndCollection
  * version：1.0
  * description:
  */
-//不可变集合
+//不可变集合，只能读，不能写
 var list1 = listOf("Mike", "Lily", "Lucy")
 var array1 = arrayOf("Mike", "Lily", "Lucy")
 var set1 = setOf("Mike", "Lily", "Lucy")
 var map1 = mapOf("Mike" to 10, "Lily" to 20, "Lucy" to 30) //to实际上是一个中缀(infix)函数
 
-//可变集合
+//可变集合，能读能写
 var list2 = mutableListOf("Mike", "Lily", "Lucy")
 var set2 = mutableSetOf("Mike", "Lily", "Lucy")
 var map2 = mutableMapOf("Mike" to 10, "Lily" to 20, "Lucy" to 30)

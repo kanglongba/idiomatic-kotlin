@@ -13,7 +13,7 @@ package guide16_destructure
  *
  * 把一个对象拆解成多个变量，叫做解构
  * 1.只有数据类（data class）可以被解构
- * 2.自定义解构声明，要自己声明componentN()函数，需要用到 operator 修饰符
+ * 2.普通类要想支持解构，要自己声明componentN()函数，需要用到 operator 修饰符
  * 3.可以使用下划线，忽略对某个变量的解构
  */
 
@@ -54,11 +54,16 @@ fun main(vararg args: String) {
     }
 }
 
-
+/**
+ * 数据类可以直接解构
+ */
 data class Tencent(val ceo: String, val coo: String, val cpo: String) {
 
 }
 
+/**
+ * 普通类需要自己声明解构函数，才可以支持解构。需要使用 operator 关键字。
+ */
 class Alibaba(val ceo: String, val cto: String) {
     operator fun component1(): String = ceo
     operator fun component2(): String = cto

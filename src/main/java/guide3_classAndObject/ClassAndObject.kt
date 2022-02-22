@@ -48,7 +48,7 @@ fun main(vararg args: String) {
     val dataClass = KotlinDataClass("Mike")
     dataClass.printInfo("icbu", "man") //正常调用
     dataClass.printInfo() //1.函数参数默认值2.匹配了参数少的那个函数(KotlinDataClass中的第一个函数)。
-    dataClass.printInfo(sex = "woman") //1.第一个函数参数默认值2.靠别名区分了重载方法(与第一个区分)
+    dataClass.printInfo(sex = "woman") //1.第一个参数默认值2.靠别名区分了重载方法(与第一个区分)
     dataClass.printInfo(sex = "man", school = "cbu") //1.别名可以调整参数顺序
     println(dataClass.toString()) //toString只包含了主构造函数里面声明的变量，没有打印address
 
