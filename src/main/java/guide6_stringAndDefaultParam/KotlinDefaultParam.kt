@@ -15,6 +15,8 @@ class KotlinDefaultParam {
         println("myAge=$age")
     }
 
+    // @JvmOverloads 注解会为默认参数生成重载函数
+    @JvmOverloads
     fun printName(name: String = "edison") {
         println("myName=$name")
     }
