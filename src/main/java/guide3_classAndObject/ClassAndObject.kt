@@ -77,6 +77,7 @@ fun testSealedClass(kotlinSealedClass: KotlinSealedClass) {
     when (kotlinSealedClass) {
         is KotlinSealedClass1 -> println("KotlinSealedClass1")
         is KotlinSealedClass2 -> println("KotlinSealedClass2")
+        is KotlinSealedClass3 -> println("KotlinSealedClass3")
     }
 }
 
