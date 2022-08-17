@@ -5,6 +5,7 @@ class AnonymousFunctionReturns {
 
     private fun findSpock(list: List<Student>) {
         list.forEach(fun(student) {
+            println(student.name)
             if (student.name == "Spock") {
                 println("Found Spock")
                 //返回匿名函数
@@ -15,7 +16,7 @@ class AnonymousFunctionReturns {
     }
 
     fun findStudentTest() {
-        val studentList = listOf(Student("Kirk", 12345), Student("Spock", 54321))
+        val studentList = listOf(Student("Kirk", 12345), Student("Spock", 54321), Student("Mike", 12345))
         findSpock(studentList)
         println("End of findStudentTest")
     }
