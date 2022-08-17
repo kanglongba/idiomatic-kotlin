@@ -3,6 +3,7 @@ package chap16_noinline_crossinline
 fun someHigherOrderFunction(message: String, func: (String) -> Unit) {
 }
 
+//直接在lambda返回外部函数的情况称为非局部返回
 // https://www.kotlincn.net/docs/reference/inline-functions.html
 // 在 Kotlin 中，我们只能对具名或匿名函数使用正常的、非限定的 return 来退出。 这意味着要退出一个 lambda 表达式，我们必须使用一个标签，并且在 lambda 表达式内部禁止使用裸 return
 // crossinline 标识该 lambda 表达式中不允许非局部控制流
