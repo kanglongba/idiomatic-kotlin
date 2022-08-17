@@ -25,7 +25,9 @@ class ReturnWithLabels {
     }
 
     fun findStudentTest() {
-        val studentList = listOf(Student("Kirk", 12345), Student("Spock", 54321))
+        val studentList = listOf(Student("Kirk", 12345), Student("Spock", 54321),
+            Student("Mike", 12345)
+        )
         findSpock(studentList)
         println("End of findStudentTest")
     }
