@@ -5,7 +5,7 @@ interface Consumer<in T> {
 }
 
 class NumberConsumer : Consumer<Number> {
-    //表明可以number或number的子类
+    //表明可以写入number或number的子类，相当于逆变
     override fun consume(input: Number): Boolean = true
 }
 

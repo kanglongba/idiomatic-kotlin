@@ -1,7 +1,7 @@
 package chap07_sequence
 
-import com.sun.org.apache.xalan.internal.xsltc.dom.Filter
-import com.sun.xml.internal.xsom.impl.scd.Iterators
+//import com.sun.org.apache.xalan.internal.xsltc.dom.Filter
+//import com.sun.xml.internal.xsom.impl.scd.Iterators
 
 // Copy of some stdlib functions. Use the actual function in stdlib for the latest code
 class SequenceSample {
@@ -18,6 +18,7 @@ class SequenceSample {
         return FilteringSequence(this, true, predicate)
     }
 
+    //可见性修饰符，本模块内可见
     internal class FilteringSequence<T>(
             private val sequence: Sequence<T>,
             private val sendWhen: Boolean = true,
